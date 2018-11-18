@@ -1,0 +1,14 @@
+
+
+function solution(str){
+  var i;
+  var long=str.length;
+  var word="";
+  for(i=1;i<long+1;i++)
+  {
+    var letter=str[long-i];
+    //console.log(letter);
+    word+=letter;
+  }
+  return(word);
+}
